@@ -18,11 +18,8 @@
       }
 
       function calculate(e1, e2, op, decimalPoint) {
-        // if(isNaN(e1) || isNaN(e2)){
-        //     return 'UnSupport'
-        // }
-        if (isNaN(e1)) {
-          return "UnSupport";
+        if(isNaN(e1) || isNaN(e2)){
+          return 'UnSupport'
         }
         // var f1 = parseFloat(e1)
         const f1 = Math.abs(parseFloat(e1));
